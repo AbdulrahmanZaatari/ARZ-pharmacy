@@ -2,8 +2,8 @@
 // Define database credentials
 $servername = "localhost";
 $username = "root";
-$password = "Abedamal123!";
-$database = "arz_pharmacy_updated";
+$password = "";
+$database = "arz_pharmacy";
 
 // Create a MySQLi connection
 $conn = new mysqli($servername, $username, $password, $database);
