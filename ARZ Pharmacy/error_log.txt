@@ -1,0 +1,7 @@
+[2024-12-01 18:30:37] Error generating PDF: FPDF error: Some data has already been output, can't send PDF file (output started at C:\xampp\htdocs\x\owner_header.php:6)
+[2024-12-01 18:30:40] Error generating PDF: FPDF error: Some data has already been output, can't send PDF file (output started at C:\xampp\htdocs\x\owner_header.php:6)
+[2024-12-01 18:30:42] Error generating PDF: FPDF error: Some data has already been output, can't send PDF file (output started at C:\xampp\htdocs\x\owner_header.php:6)
+[2024-12-01 18:30:47] Error generating PDF: FPDF error: Some data has already been output, can't send PDF file (output started at C:\xampp\htdocs\x\owner_header.php:6)
+[2024-12-01 18:33:43] Error generating PDF: FPDF error: Some data has already been output, can't send PDF file (output started at C:\xampp\htdocs\x\owner_header.php:6)
+[2024-12-01 18:33:47] Error generating PDF: FPDF error: Some data has already been output, can't send PDF file (output started at C:\xampp\htdocs\x\owner_header.php:6)
+[2024-12-01 18:34:07] Error generating PDF: FPDF error: Some data has already been output, can't send PDF file (output started at C:\xampp\htdocs\x\owner_header.php:6)
