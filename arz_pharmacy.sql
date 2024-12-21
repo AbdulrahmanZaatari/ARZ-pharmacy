@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 01, 2024 at 06:55 PM
+-- Generation Time: Dec 05, 2024 at 08:48 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -66,7 +66,9 @@ CREATE TABLE `approval_requests` (
 
 INSERT INTO `approval_requests` (`id`, `customer_id`, `product_id`, `comment`, `request_date`, `status`, `pharmacist_comment`, `processed_date`, `ehr_id`) VALUES
 (11, 104, 14, NULL, '2024-11-30 11:28:30', 'rejected', 'no', '2024-11-30 22:40:01', 5),
-(13, 108, 14, NULL, '2024-11-30 22:42:54', 'pending', NULL, '0000-00-00 00:00:00', 4);
+(13, 108, 14, NULL, '2024-11-30 22:42:54', 'approved', NULL, '2024-12-03 15:17:04', 4),
+(15, 104, 14, NULL, '2024-12-04 18:07:41', 'rejected', 'You have an allergy that prevents you form taking this medicine', '2024-12-04 18:10:57', 5),
+(16, 104, 14, NULL, '2024-12-05 19:33:02', 'approved', NULL, '2024-12-05 19:34:10', 5);
 
 -- --------------------------------------------------------
 
@@ -89,7 +91,8 @@ CREATE TABLE `blogs` (
 --
 
 INSERT INTO `blogs` (`id`, `title`, `content`, `image_path`, `video_link`, `author_id`, `created_at`) VALUES
-(1, 'Panadol: Your Go-To Relief for Everyday Pain and Fever', 'Blog Content:\r\nWhen it comes to managing pain and fever, Panadol has become a household name. Trusted by millions around the globe, Panadol is known for its effectiveness, affordability, and wide availability. But what exactly makes Panadol such a reliable option? Let’s take a closer look at this popular medication.\r\n\r\nWhat is Panadol?\r\nPanadol is the brand name for paracetamol, also known as acetaminophen in some parts of the world. It’s a common over-the-counter (OTC) medication used to relieve mild to moderate pain and reduce fever. Whether you’re dealing with a headache, muscle aches, or flu symptoms, Panadol is often the first choice for quick relief.\r\n\r\nHow Does Panadol Work?\r\nPanadol works by inhibiting the production of prostaglandins in the brain. These are chemical compounds responsible for causing pain and inflammation. By blocking their production, Panadol effectively reduces pain and lowers body temperature when you have a fever.\r\n\r\nBenefits of Panadol:\r\nFast-Acting Relief\r\nPanadol provides rapid relief from various types of pain, including headaches, toothaches, back pain, and menstrual cramps.\r\n\r\nSafe When Used Correctly\r\nWhen taken as directed, Panadol is safe for most people, including children and the elderly. It’s often recommended for people who cannot take non-steroidal anti-inflammatory drugs (NSAIDs) like ibuprofen due to stomach or heart concerns.\r\n\r\nGentle on the Stomach\r\nUnlike NSAIDs, Panadol is less likely to cause stomach irritation, making it a good option for individuals with sensitive digestive systems.\r\n\r\nVersatile Options\r\nPanadol is available in various formulations, including tablets, liquid suspensions, and dissolvable powders, catering to different preferences and age groups.\r\n\r\nWhen Should You Use Panadol?\r\nPanadol is effective in treating:\r\n\r\nHeadaches and migraines\r\nFever from colds or flu\r\nMuscle aches and joint pain\r\nToothaches and post-dental pain\r\nMenstrual cramps\r\nSafety Precautions:\r\nWhile Panadol is generally safe, it’s important to follow the recommended dosage guidelines:\r\n\r\nAdults: Usually, 500 mg to 1 g every 4-6 hours as needed, but do not exceed 4 g in 24 hours.\r\nChildren: Dosage varies based on age and weight; consult a doctor or pharmacist for accurate recommendations.\r\nAvoid Overuse: Taking too much Panadol can lead to liver damage. Always check labels for hidden paracetamol in other combination medications.\r\n\r\nWhen to Seek Medical Advice?\r\nConsult a healthcare professional if:\r\n\r\nPain persists for more than a few days.\r\nFever does not improve after 3 days.\r\nYou have underlying liver or kidney conditions.\r\nConclusion:\r\nPanadol has stood the test of time as one of the most trusted pain relievers in the world. Its versatility and ease of use make it a go-to option for many individuals seeking relief from pain and fever. However, as with any medication, it’s crucial to use Panadol responsibly and seek medical advice if symptoms persist.\r\n\r\nSo, the next time you’re feeling under the weather, reach for Panadol – your trusted companion for effective relief!\r\n\r\nDisclaimer: Always consult a healthcare professional before starting any medication.', 'uploads/blogs/images.jpg', 'https://youtu.be/vX9NwI04v-o?si=qNVZScvoYiUsBFTq', 6, '2024-11-30 12:29:02');
+(1, 'Panadol: Your Go-To Relief for Everyday Pain and Fever', 'Blog Content:\r\nWhen it comes to managing pain and fever, Panadol has become a household name. Trusted by millions around the globe, Panadol is known for its effectiveness, affordability, and wide availability. But what exactly makes Panadol such a reliable option? Let’s take a closer look at this popular medication.\r\n\r\nWhat is Panadol?\r\nPanadol is the brand name for paracetamol, also known as acetaminophen in some parts of the world. It’s a common over-the-counter (OTC) medication used to relieve mild to moderate pain and reduce fever. Whether you’re dealing with a headache, muscle aches, or flu symptoms, Panadol is often the first choice for quick relief.\r\n\r\nHow Does Panadol Work?\r\nPanadol works by inhibiting the production of prostaglandins in the brain. These are chemical compounds responsible for causing pain and inflammation. By blocking their production, Panadol effectively reduces pain and lowers body temperature when you have a fever.\r\n\r\nBenefits of Panadol:\r\nFast-Acting Relief\r\nPanadol provides rapid relief from various types of pain, including headaches, toothaches, back pain, and menstrual cramps.\r\n\r\nSafe When Used Correctly\r\nWhen taken as directed, Panadol is safe for most people, including children and the elderly. It’s often recommended for people who cannot take non-steroidal anti-inflammatory drugs (NSAIDs) like ibuprofen due to stomach or heart concerns.\r\n\r\nGentle on the Stomach\r\nUnlike NSAIDs, Panadol is less likely to cause stomach irritation, making it a good option for individuals with sensitive digestive systems.\r\n\r\nVersatile Options\r\nPanadol is available in various formulations, including tablets, liquid suspensions, and dissolvable powders, catering to different preferences and age groups.\r\n\r\nWhen Should You Use Panadol?\r\nPanadol is effective in treating:\r\n\r\nHeadaches and migraines\r\nFever from colds or flu\r\nMuscle aches and joint pain\r\nToothaches and post-dental pain\r\nMenstrual cramps\r\nSafety Precautions:\r\nWhile Panadol is generally safe, it’s important to follow the recommended dosage guidelines:\r\n\r\nAdults: Usually, 500 mg to 1 g every 4-6 hours as needed, but do not exceed 4 g in 24 hours.\r\nChildren: Dosage varies based on age and weight; consult a doctor or pharmacist for accurate recommendations.\r\nAvoid Overuse: Taking too much Panadol can lead to liver damage. Always check labels for hidden paracetamol in other combination medications.\r\n\r\nWhen to Seek Medical Advice?\r\nConsult a healthcare professional if:\r\n\r\nPain persists for more than a few days.\r\nFever does not improve after 3 days.\r\nYou have underlying liver or kidney conditions.\r\nConclusion:\r\nPanadol has stood the test of time as one of the most trusted pain relievers in the world. Its versatility and ease of use make it a go-to option for many individuals seeking relief from pain and fever. However, as with any medication, it’s crucial to use Panadol responsibly and seek medical advice if symptoms persist.\r\n\r\nSo, the next time you’re feeling under the weather, reach for Panadol – your trusted companion for effective relief!\r\n\r\nDisclaimer: Always consult a healthcare professional before starting any medication.', 'uploads/blogs/images.jpg', 'https://youtu.be/vX9NwI04v-o?si=qNVZScvoYiUsBFTq', 6, '2024-11-30 12:29:02'),
+(2, 'The Importance of Staying Hydrated for Your Health', 'Introduction\r\nWater is essential for life, making up about 60% of the human body. Despite its importance, many people don’t drink enough water daily. Staying hydrated is crucial for maintaining overall health, supporting bodily functions, and enhancing mental and physical performance.\r\n\r\nWhy Is Hydration Important?\r\nRegulates Body Temperature Proper hydration helps maintain a stable body temperature. Water absorbs and redistributes heat in your body, preventing overheating through processes like sweating.\r\n\r\nSupports Digestion Drinking water aids in breaking down food, improving nutrient absorption, and preventing common digestive issues like constipation.\r\n\r\nBoosts Energy Levels Dehydration can cause fatigue and lower energy levels. Staying hydrated ensures that your body can carry nutrients and oxygen efficiently, keeping you energized throughout the day.\r\n\r\nImproves Skin Health Your skin needs adequate hydration to stay supple and radiant. Drinking enough water helps maintain skin elasticity and prevents dryness and flakiness.\r\n\r\nSupports Joint Health Water acts as a lubricant for your joints, reducing discomfort and preventing joint damage, especially during physical activity.\r\n\r\nSigns of Dehydration\r\nIt’s essential to recognize when your body needs more water. Common symptoms include:\r\n\r\nThirst\r\nDry mouth\r\nFatigue\r\nDark yellow urine\r\nHeadaches\r\nDizziness\r\nIf dehydration becomes severe, it can lead to more serious health issues such as kidney stones or urinary tract infections.\r\n\r\nTips to Stay Hydrated\r\nCarry a Water Bottle: Keep a reusable water bottle with you to encourage regular drinking.\r\nSet Reminders: Use alarms or hydration apps to remind you to drink water throughout the day.\r\nAdd Flavor: If plain water feels boring, try adding slices of lemon, cucumber, or mint.\r\nEat Water-Rich Foods: Incorporate foods like watermelon, cucumbers, and oranges into your diet.\r\nDrink Before Thirst: Don’t wait until you feel thirsty; sip water regularly to stay ahead of dehydration.\r\nConclusion\r\nHydration is a simple yet powerful way to support your health. By making water a priority in your daily routine, you can improve your energy, digestion, and overall well-being. Start today by drinking an extra glass of water—you’ll feel the difference!', 'uploads/blogs/water.jpg', '', 6, '2024-12-04 13:44:08');
 
 -- --------------------------------------------------------
 
@@ -138,10 +141,11 @@ INSERT INTO `customers` (`id`, `first_name`, `last_name`, `birth_date`, `phone_n
 (1, 'John', 'Doe', '1990-05-15', '1234567890', '123 Main Street, Springfield', 'johndoe@example.com', 'johndoe', '$2b$12$foxXQSFN946Vz0ZRIMiAH.UnqqCDV6uMf8sL55vo3ghXrN9au.Scq', 'uploads/profile1.jpg', 'Buddy', 'Mary', 'active', '2024-11-23 12:30:00', 'incomplete', 'customer'),
 (2, 'Alice', 'Johnson', '1992-03-15', '+1234567890', '123 Maple Street, Cityville', 'alice.johnson@example.com', 'alicejohnson', '482c811da5d5b4bc6d497ffa98491e38', 'images/customers/alice.jpg', 'Blue', 'London', 'active', '2024-11-23 22:52:51', 'incomplete', 'customer'),
 (3, 'Bob', 'Smith', '1985-09-20', '+9876543210', '456 Elm Street, Townsville', 'bob.smith@example.com', 'bobsmith', 'bb77d0d3b3f239fa5db73bdf27b8d29a', 'images/customers/bob.jpg', 'Green', 'Paris', 'active', '2024-11-23 22:52:51', 'incomplete', 'customer'),
-(104, 'Abdul Rahman', 'Al Zaatari', '2024-11-03', '+96181906611', 'Beirut hamra', 'abdulrahman.alzaatari@lau.edu', NULL, '$2y$10$ID2UvUnWICrNFRh23XF31uOfqeIPpwXCGQlOaUw0aRRpZOh2ua.B6', NULL, 'Fatima', 'Gardenia', 'active', '2024-11-24 12:35:36', 'incomplete', 'customer'),
+(104, 'Abdul Rahman', 'Al Zaatari', '2024-11-03', '+96181906611', 'Beirut hamra', 'abdulrahman.alzaatari@lau.edu', NULL, '$2y$10$ID2UvUnWICrNFRh23XF31uOfqeIPpwXCGQlOaUw0aRRpZOh2ua.B6', 'Headshot.jpg', 'Fatima', 'Gardenia', 'active', '2024-11-24 12:35:36', 'incomplete', 'customer'),
 (106, 'Abdul Rahman', 'Al Zaatari', '2024-11-03', '+96181906619', 'Beirut hamra', 'abedalzaatari@gmail.com', NULL, '$2y$10$h3o8Ovd.1ELV7v8jvfSKT.JXGUCl7lXbE/DOKiYZo7iP78ZFBWjJK', NULL, 'Fatima', 'Gardenia', 'active', '2024-11-24 12:50:14', 'incomplete', 'customer'),
 (107, 'Abdul Rahman', 'Al Zaatari', '2004-03-31', '+96181906611', 'Beirut hamra', 'zaatariabdulrahman@gmail.com', NULL, '$2y$10$10kKmkETnza/3pr3uiw8/eKe/.mYEpJcfqd58Z/Mnk2Lzb667MQnW', NULL, 'Fatima', 'Gardenia', 'active', '2024-11-25 17:58:52', 'incomplete', 'customer'),
-(108, 'Karl', 'Ghanem', '2024-11-29', '81668802', 'jounieh', 'Karl.ghanem2004@gmail.com', NULL, '$2y$10$2EZGACeHaR6S9mpGzELho.t1DHq4xyl0V9rkwtEWoeqiyOVSxj7.C', NULL, 'kk', 'kk', 'active', '2024-11-29 20:27:10', 'complete', 'customer');
+(108, 'Karl', 'Ghanem', '2024-11-29', '81668802', 'jounieh', 'Karl.ghanem2004@gmail.com', NULL, '$2y$10$2EZGACeHaR6S9mpGzELho.t1DHq4xyl0V9rkwtEWoeqiyOVSxj7.C', NULL, 'kk', 'kk', 'active', '2024-11-29 20:27:10', 'complete', 'customer'),
+(109, 'Abdul Rahman', 'Al Zaatari', '2004-03-31', '+96181906619', 'Beirut hamra', 'www.abed2004@gmail.com', NULL, '$2y$10$kHiLeXDXHpkiqJsiKE81X./hQmujaOXcGUFT5VGzqteFnRprk6uRq', 'Headshot.jpg', 'Fatima', 'Gardenia', 'active', '2024-12-04 17:16:34', 'complete', 'customer');
 
 -- --------------------------------------------------------
 
@@ -162,7 +166,9 @@ CREATE TABLE `daily_sales` (
 --
 
 INSERT INTO `daily_sales` (`id`, `sale_date`, `total_sales`, `total_orders`, `created_at`) VALUES
-(3, '2024-12-01', 16.00, 2, '2024-12-01 17:09:59');
+(3, '2024-12-01', 16.00, 2, '2024-12-01 17:09:59'),
+(4, '2024-12-04', 8.00, 1, '2024-12-04 18:01:07'),
+(5, '2024-12-05', 6.00, 1, '2024-12-05 19:32:41');
 
 -- --------------------------------------------------------
 
@@ -215,7 +221,20 @@ INSERT INTO `electronic_health_records` (`id`, `customer_id`, `chronic_condition
 (2, 106, 'yes', 'yes', '170 cm', '70 kgs', 'Grandma, Diabetes', 'panadol', 'Vitamin D', 'yes', '7', 'yes', 'hana', '1-2 times per week', '2-4 hours', 'other', 'hih', '5-6 hours', 'difficulty_falling_asleep', '8', 'yes', 'no', 'no', NULL, NULL, 'hh', '989', '989', 'Mama', 'MAMA', '81906618', '2024-11-24 13:07:51', '2024-11-24 13:07:51'),
 (3, 107, 'no', 'no', '170 cm', '70 kgs', 'Grandma, Diabetes', '', 'Vitamin D', 'no', '', 'no', '', '1-2 times per week', '4-6 hours', 'balanced', '', '5-6 hours', '', '4', 'no', '', 'yes', NULL, NULL, 'Government', '12881791', '', 'Dina Mortada', 'Mother', '81906618', '2024-11-25 18:01:30', '2024-11-25 18:01:30'),
 (4, 108, 'no', 'no', '5', '5', '', '', NULL, 'no', NULL, NULL, NULL, NULL, NULL, '0', NULL, '5-6 hours', NULL, NULL, NULL, NULL, 'yes', NULL, NULL, 'kkkk', '193093', '11313', 'kkk', 'kkk', '816666666', '2024-11-29 20:28:52', '2024-11-29 20:28:52'),
-(5, 104, 'None', 'None', '170 cm', '70 kgs', 'Grandma, Diabetes', 'None', 'Vitamin D', 'None', 'None', 'None', 'None', '4-6 hours a week', '4-6 hours a day', 'none', 'Halal', '5-6 hours', 'None', '8', 'None', NULL, 'Yes', NULL, NULL, 'Government', '89071', '', 'Dina Mortada', 'Mom', '81906611', '2024-11-30 11:28:15', '2024-11-30 13:54:52');
+(5, 104, 'None', 'None', '170 cm', '70 kgs', 'Grandma, Diabetes', 'None', 'Vitamin D', 'None', 'None', 'None', 'None', '4-6 hours a week', '4-6 hours a day', 'none', 'Halal', '5-6 hours', 'None', '8', 'None', NULL, 'Yes', NULL, NULL, 'Government', '89071', '', 'Dina Mortada', 'Mom', '81906611', '2024-11-30 11:28:15', '2024-11-30 13:54:52'),
+(6, 109, 'no', 'no', '170 cm', '70 kgs', 'Grandma, Diabetes', '', NULL, 'no', NULL, NULL, NULL, NULL, NULL, '0', NULL, '5-6 hours', NULL, NULL, NULL, NULL, 'yes', NULL, NULL, 'Government', '12881791', '', 'Mama', 'Mother', '81906618', '2024-12-04 17:20:28', '2024-12-04 17:20:28');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `login_attempts`
+--
+
+CREATE TABLE `login_attempts` (
+  `id` int(11) NOT NULL,
+  `ip_address` varchar(45) NOT NULL,
+  `attempt_time` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 -- --------------------------------------------------------
 
@@ -236,7 +255,9 @@ CREATE TABLE `orders` (
 
 INSERT INTO `orders` (`id`, `customer_id`, `order_date`, `total_amount`) VALUES
 (24, 104, '2024-12-01 19:09:59', 4.00),
-(25, 104, '2024-12-01 19:49:16', 12.00);
+(25, 104, '2024-12-01 19:49:16', 12.00),
+(26, 104, '2024-12-04 20:01:07', 8.00),
+(27, 104, '2024-12-05 21:32:41', 6.00);
 
 -- --------------------------------------------------------
 
@@ -258,7 +279,9 @@ CREATE TABLE `order_items` (
 
 INSERT INTO `order_items` (`id`, `order_id`, `product_id`, `quantity`, `price`) VALUES
 (14, 24, 12, 2, 2.00),
-(15, 25, 15, 2, 6.00);
+(15, 25, 15, 2, 6.00),
+(16, 26, 12, 4, 2.00),
+(17, 27, 12, 3, 2.00);
 
 -- --------------------------------------------------------
 
@@ -351,8 +374,7 @@ CREATE TABLE `pharmacist_verification_requests` (
 --
 
 INSERT INTO `pharmacist_verification_requests` (`id`, `first_name`, `last_name`, `birth_date`, `email`, `password`, `profile_picture`, `license_number`, `phone_number`, `address`, `degree`, `certifications`, `request_date`, `status`, `reviewed_by`, `review_date`, `comments`) VALUES
-(20, 'John', 'Doe', '1985-03-15', 'john.doe@example.com', 'hashed_password_123', 'uploads/john.jpg', 'LN12345', '1234567890', '123 Main St', 'Pharm.D', 'Certified Pharmacist', '2024-11-28 03:40:46', 'pending', NULL, '0000-00-00 00:00:00', NULL),
-(21, 'Jane', 'Smith', '1990-07-25', 'jane.smith@example.com', 'hashed_password_456', 'uploads/jane.jpg', 'LN67890', '0987654321', '456 Elm St', 'M.Sc in Pharmacy', 'Clinical Pharmacist Certification', '2024-11-28 03:40:46', 'pending', NULL, '0000-00-00 00:00:00', NULL);
+(22, 'Karl', 'Ghanem', NULL, 'karlghanem@gmail.com', '$2y$10$9H/JegY61nPR37APkaHrh.oKGN8MTkf3BMhK.rw2Jhe.NlPJ6HmF2', 'uploads/pharmacist_requests/Karl.jpg', '19802', '+96181906619', 'Beirut hamra', 'LAU Degree in Pharmacy', 'Best pharmacist award', '2024-12-05 19:47:09', 'pending', NULL, '0000-00-00 00:00:00', NULL);
 
 -- --------------------------------------------------------
 
@@ -382,7 +404,9 @@ INSERT INTO `products` (`id`, `name`, `description`, `symptoms`, `type`, `approv
 (12, 'Panadol', 'Panadol, a painkiller used for lessening pain and headaches.', 'headache', 'medications', 'no approval needed', 2.00, 20, NULL, 'uploads/product_images/images.jpg', 'medicine'),
 (13, 'Carrot sun lotion', 'Used for sun protection.', 'fatigue', 'medications', 'no approval needed', 7.00, 3, NULL, 'uploads/product_images/carrot sun lotion.jpg', 'cosmetic'),
 (14, 'Augmentin 1g', 'Antibiotic used for treating fevers and killing bacteria.', 'fever', 'medications', 'pharmacist check', 5.00, 10, NULL, 'uploads/product_images/Augmentin.jpg', 'medicine'),
-(15, 'Aerus', 'aerus', 'other', 'medications', 'no approval needed', 6.00, 6, NULL, 'uploads/product_images/person.jpg', 'medicine');
+(15, 'Vaseline', 'Cream used to treat rough skin', 'other', 'medications', 'no approval needed', 2.00, 4, NULL, 'uploads/product_images/vaseline.jpg', 'cosmetic'),
+(16, 'Fluoxetine', 'Antidepressant used for people with OCD.', 'other', 'medications', 'prescription needed', 6.00, 5, NULL, 'uploads/product_images/Fluoxetine.jpg', 'medicine'),
+(17, 'Head & Shoulders', 'Head & Shoulders shampoo for treating dandruff.', 'other', 'medications', 'no approval needed', 4.00, 5, NULL, 'uploads/product_images/head&shoulders.jpg', 'cosmetic');
 
 -- --------------------------------------------------------
 
@@ -426,7 +450,9 @@ CREATE TABLE `sales_records` (
 --
 
 INSERT INTO `sales_records` (`id`, `sale_date`, `total_price`) VALUES
-(3, '2024-12-01', 16.00);
+(3, '2024-12-01', 16.00),
+(4, '2024-12-04', 8.00),
+(5, '2024-12-05', 6.00);
 
 -- --------------------------------------------------------
 
@@ -448,7 +474,9 @@ CREATE TABLE `sales_records_orders` (
 
 INSERT INTO `sales_records_orders` (`id`, `sales_record_id`, `order_id`, `order_date`, `order_total`) VALUES
 (6, 3, 24, '2024-12-01 00:00:00', 4.00),
-(7, 3, 25, '2024-12-01 00:00:00', 12.00);
+(7, 3, 25, '2024-12-01 00:00:00', 12.00),
+(8, 4, 26, '2024-12-04 00:00:00', 8.00),
+(9, 5, 27, '2024-12-05 00:00:00', 6.00);
 
 -- --------------------------------------------------------
 
@@ -460,10 +488,21 @@ CREATE TABLE `stock_records` (
   `id` int(11) NOT NULL,
   `product_id` int(11) NOT NULL,
   `quantity_added` int(11) NOT NULL,
-  `supplier_name` varchar(100) DEFAULT NULL,
-  `added_by` int(11) DEFAULT NULL,
+  `batch_number` varchar(50) NOT NULL,
+  `supplier_name` varchar(100) NOT NULL,
+  `supplier_contact` varchar(100) DEFAULT NULL,
+  `cost_price` decimal(10,2) NOT NULL,
+  `selling_price` decimal(10,2) NOT NULL,
   `added_date` timestamp NOT NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+
+--
+-- Dumping data for table `stock_records`
+--
+
+INSERT INTO `stock_records` (`id`, `product_id`, `quantity_added`, `batch_number`, `supplier_name`, `supplier_contact`, `cost_price`, `selling_price`, `added_date`) VALUES
+(14, 12, 2, '3', 'Ali Ghandour Companies', 'Ali: 81906617', 1.50, 3.00, '2024-12-04 03:00:42'),
+(15, 12, 5, '2', 'Ali Ghandour Companies', 'Ali: 81906617', 1.50, 3.00, '2024-12-04 18:13:12');
 
 -- --------------------------------------------------------
 
@@ -544,6 +583,12 @@ ALTER TABLE `electronic_health_records`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `login_attempts`
+--
+ALTER TABLE `login_attempts`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `orders`
 --
 ALTER TABLE `orders`
@@ -582,6 +627,12 @@ ALTER TABLE `pharmacist_verification_requests`
   ADD KEY `reviewed_by` (`reviewed_by`);
 
 --
+-- Indexes for table `products`
+--
+ALTER TABLE `products`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `sales_records`
 --
 ALTER TABLE `sales_records`
@@ -597,6 +648,12 @@ ALTER TABLE `sales_records_orders`
   ADD KEY `order_id` (`order_id`);
 
 --
+-- Indexes for table `stock_records`
+--
+ALTER TABLE `stock_records`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -604,37 +661,85 @@ ALTER TABLE `sales_records_orders`
 -- AUTO_INCREMENT for table `approval_requests`
 --
 ALTER TABLE `approval_requests`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+
+--
+-- AUTO_INCREMENT for table `blogs`
+--
+ALTER TABLE `blogs`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT for table `customers`
+--
+ALTER TABLE `customers`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=110;
 
 --
 -- AUTO_INCREMENT for table `daily_sales`
 --
 ALTER TABLE `daily_sales`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
+-- AUTO_INCREMENT for table `electronic_health_records`
+--
+ALTER TABLE `electronic_health_records`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
+--
+-- AUTO_INCREMENT for table `login_attempts`
+--
+ALTER TABLE `login_attempts`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 
 --
 -- AUTO_INCREMENT for table `order_items`
 --
 ALTER TABLE `order_items`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+
+--
+-- AUTO_INCREMENT for table `pharmacists`
+--
+ALTER TABLE `pharmacists`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+
+--
+-- AUTO_INCREMENT for table `pharmacist_verification_requests`
+--
+ALTER TABLE `pharmacist_verification_requests`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+
+--
+-- AUTO_INCREMENT for table `products`
+--
+ALTER TABLE `products`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT for table `sales_records`
 --
 ALTER TABLE `sales_records`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `sales_records_orders`
 --
 ALTER TABLE `sales_records_orders`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+
+--
+-- AUTO_INCREMENT for table `stock_records`
+--
+ALTER TABLE `stock_records`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- Constraints for dumped tables

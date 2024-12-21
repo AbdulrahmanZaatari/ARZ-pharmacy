@@ -1,0 +1,835 @@
+[2024-11-26 02:57:41] Fetching questions started.
+[2024-11-26 02:57:41] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-26 02:57:41] Found 1 questions.
+[2024-11-26 02:57:41] Questions returned successfully.
+[2024-11-26 03:00:45] Fetching questions started.
+[2024-11-26 03:00:45] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-26 03:00:45] Found 1 questions.
+[2024-11-26 03:00:45] Questions returned successfully.
+[2024-11-26 03:04:41] Fetching questions started.
+[2024-11-26 03:04:41] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-26 03:04:41] Found 1 questions.
+[2024-11-26 03:04:41] Questions returned successfully.
+[2024-11-26 03:06:17] Fetching questions started.
+[2024-11-26 03:06:17] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-26 03:06:17] Found 1 questions.
+[2024-11-26 03:06:17] Questions returned successfully.
+[2024-11-26 03:09:45] Fetching questions started.
+[2024-11-26 03:09:45] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-26 03:09:45] Found 1 questions.
+[2024-11-26 03:09:45] Questions returned successfully.
+[2024-11-26 03:14:36] Fetching questions started.
+[2024-11-26 03:14:36] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-26 03:14:36] Found 1 questions.
+[2024-11-26 03:14:36] Questions returned successfully.
+[2024-11-26 03:16:16] Fetching questions started.
+[2024-11-26 03:16:16] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-26 03:16:16] Found 1 questions.
+[2024-11-26 03:16:16] Questions returned successfully.
+[2024-11-26 03:18:44] Fetching questions started.
+[2024-11-26 03:18:44] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-26 03:18:44] Found 1 questions.
+[2024-11-26 03:18:44] Questions returned successfully.
+[2024-11-26 03:20:00] Fetching questions started.
+[2024-11-26 03:20:00] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-26 03:20:00] Found 1 questions.
+[2024-11-26 03:20:00] Questions returned successfully.
+[2024-11-26 03:32:14] Fetching questions started.
+[2024-11-26 03:32:15] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-26 03:32:15] Found 1 questions.
+[2024-11-26 03:32:15] Questions returned successfully.
+[2024-11-26 03:41:04] Fetching questions started.
+[2024-11-26 03:41:04] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-26 03:41:04] Found 1 questions.
+[2024-11-26 03:41:04] Questions returned successfully.
+[2024-11-26 03:43:46] Fetching questions started.
+[2024-11-26 03:43:46] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-26 03:43:46] Found 1 questions.
+[2024-11-26 03:43:46] Questions returned successfully.
+[2024-11-26 03:52:26] Fetching questions started.
+[2024-11-26 03:52:26] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-26 03:52:26] Found 1 questions.
+[2024-11-26 03:52:26] Questions returned successfully.
+[2024-11-26 03:56:01] Fetching questions started.
+[2024-11-26 03:56:01] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-26 03:56:01] Found 1 questions.
+[2024-11-26 03:56:01] Questions returned successfully.
+[2024-11-26 03:58:53] Fetching questions started.
+[2024-11-26 03:58:53] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-26 03:58:53] Found 1 questions.
+[2024-11-26 03:58:53] Questions returned successfully.
+[2024-11-26 04:00:18] Fetching questions started.
+[2024-11-26 04:00:18] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-26 04:00:18] Found 1 questions.
+[2024-11-26 04:00:18] Questions returned successfully.
+[2024-11-26 04:01:40] Fetching questions started.
+[2024-11-26 04:01:40] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-26 04:01:40] Found 1 questions.
+[2024-11-26 04:01:40] Questions returned successfully.
+[2024-11-26 04:02:37] Fetching questions started.
+[2024-11-26 04:02:37] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-26 04:02:37] Found 1 questions.
+[2024-11-26 04:02:37] Questions returned successfully.
+[2024-11-26 04:03:31] Fetching questions started.
+[2024-11-26 04:03:31] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-26 04:03:31] Found 1 questions.
+[2024-11-26 04:03:31] Questions returned successfully.
+[2024-11-26 04:05:43] Fetching questions started.
+[2024-11-26 04:05:43] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-26 04:05:43] Found 1 questions.
+[2024-11-26 04:05:43] Questions returned successfully.
+[2024-11-26 04:10:16] Fetching questions started.
+[2024-11-26 04:10:16] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-26 04:10:16] Found 1 questions.
+[2024-11-26 04:10:16] Questions returned successfully.
+[2024-11-26 13:44:32] Fetching questions started.
+[2024-11-26 13:44:32] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-29 16:12:06] Fetching questions started.
+[2024-11-29 16:12:06] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-29 16:12:06] Found 1 questions.
+[2024-11-29 16:12:06] Questions returned successfully.
+[2024-11-29 16:16:43] Fetching questions started.
+[2024-11-29 16:16:43] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-29 16:16:43] Found 1 questions.
+[2024-11-29 16:16:43] Questions returned successfully.
+[2024-11-29 16:20:55] Fetching questions started.
+[2024-11-29 16:20:55] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-29 16:20:55] Found 1 questions.
+[2024-11-29 16:20:55] Questions returned successfully.
+[2024-11-29 16:55:39] Fetching questions started.
+[2024-11-29 16:55:39] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-29 16:55:39] Found 1 questions.
+[2024-11-29 16:55:39] Questions returned successfully.
+[2024-11-29 18:02:46] Fetching questions started.
+[2024-11-29 18:02:46] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-29 18:02:46] Found 1 questions.
+[2024-11-29 18:02:46] Questions returned successfully.
+[2024-11-29 18:05:05] Fetching questions started.
+[2024-11-29 18:05:05] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-29 18:05:05] Found 1 questions.
+[2024-11-29 18:05:05] Questions returned successfully.
+[2024-11-29 18:05:22] Fetching questions started.
+[2024-11-29 18:05:22] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-29 18:05:22] Found 1 questions.
+[2024-11-29 18:05:22] Questions returned successfully.
+[2024-11-29 18:05:40] Fetching questions started.
+[2024-11-29 18:05:40] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-29 18:05:40] Found 1 questions.
+[2024-11-29 18:05:40] Questions returned successfully.
+[2024-11-29 18:09:27] Fetching questions started.
+[2024-11-29 18:09:27] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-29 18:09:27] Found 1 questions.
+[2024-11-29 18:09:27] Questions returned successfully.
+[2024-11-29 18:12:21] Fetching questions started.
+[2024-11-29 18:12:21] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-29 18:12:21] Found 1 questions.
+[2024-11-29 18:12:21] Questions returned successfully.
+[2024-11-29 18:13:25] Fetching questions started.
+[2024-11-29 18:13:25] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-29 18:13:25] Found 1 questions.
+[2024-11-29 18:13:25] Questions returned successfully.
+[2024-11-29 18:16:29] Fetching questions started.
+[2024-11-29 18:16:29] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-29 18:16:29] Found 1 questions.
+[2024-11-29 18:16:29] Questions returned successfully.
+[2024-11-29 18:44:03] Fetching questions started.
+[2024-11-29 18:44:03] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-29 18:44:03] No questions found.
+[2024-11-29 18:44:03] Questions returned successfully.
+[2024-11-29 18:44:05] Fetching questions started.
+[2024-11-29 18:44:05] SQL query prepared: SELECT q.id, q.subject, q.message, q.created_at, q.pinned, q.answered, c.first_name, c.last_name
+        FROM questions q
+        JOIN customers c ON q.user_id = c.id
+        ORDER BY q.pinned DESC, q.created_at DESC
+[2024-11-29 18:44:05] No questions found.
+[2024-11-29 18:44:05] Questions returned successfully.
+POST Data: Array
+(
+    [title] => Panadol: Your Go-To Relief for Everyday Pain and Fever
+    [content] => Blog Content:
+When it comes to managing pain and fever, Panadol has become a household name. Trusted by millions around the globe, Panadol is known for its effectiveness, affordability, and wide availability. But what exactly makes Panadol such a reliable option? Let’s take a closer look at this popular medication.
+
+What is Panadol?
+Panadol is the brand name for paracetamol, also known as acetaminophen in some parts of the world. It’s a common over-the-counter (OTC) medication used to relieve mild to moderate pain and reduce fever. Whether you’re dealing with a headache, muscle aches, or flu symptoms, Panadol is often the first choice for quick relief.
+
+How Does Panadol Work?
+Panadol works by inhibiting the production of prostaglandins in the brain. These are chemical compounds responsible for causing pain and inflammation. By blocking their production, Panadol effectively reduces pain and lowers body temperature when you have a fever.
+
+Benefits of Panadol:
+Fast-Acting Relief
+Panadol provides rapid relief from various types of pain, including headaches, toothaches, back pain, and menstrual cramps.
+
+Safe When Used Correctly
+When taken as directed, Panadol is safe for most people, including children and the elderly. It’s often recommended for people who cannot take non-steroidal anti-inflammatory drugs (NSAIDs) like ibuprofen due to stomach or heart concerns.
+
+Gentle on the Stomach
+Unlike NSAIDs, Panadol is less likely to cause stomach irritation, making it a good option for individuals with sensitive digestive systems.
+
+Versatile Options
+Panadol is available in various formulations, including tablets, liquid suspensions, and dissolvable powders, catering to different preferences and age groups.
+
+When Should You Use Panadol?
+Panadol is effective in treating:
+
+Headaches and migraines
+Fever from colds or flu
+Muscle aches and joint pain
+Toothaches and post-dental pain
+Menstrual cramps
+Safety Precautions:
+While Panadol is generally safe, it’s important to follow the recommended dosage guidelines:
+
+Adults: Usually, 500 mg to 1 g every 4-6 hours as needed, but do not exceed 4 g in 24 hours.
+Children: Dosage varies based on age and weight; consult a doctor or pharmacist for accurate recommendations.
+Avoid Overuse: Taking too much Panadol can lead to liver damage. Always check labels for hidden paracetamol in other combination medications.
+
+When to Seek Medical Advice?
+Consult a healthcare professional if:
+
+Pain persists for more than a few days.
+Fever does not improve after 3 days.
+You have underlying liver or kidney conditions.
+Conclusion:
+Panadol has stood the test of time as one of the most trusted pain relievers in the world. Its versatility and ease of use make it a go-to option for many individuals seeking relief from pain and fever. However, as with any medication, it’s crucial to use Panadol responsibly and seek medical advice if symptoms persist.
+
+So, the next time you’re feeling under the weather, reach for Panadol – your trusted companion for effective relief!
+
+Disclaimer: Always consult a healthcare professional before starting any medication.
+    [video_link] => https://youtu.be/vX9NwI04v-o?si=qNVZScvoYiUsBFTq
+)
+
+FILES Data: Array
+(
+    [image] => Array
+        (
+            [name] => images.jpg
+            [full_path] => images.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php2604.tmp
+            [error] => 0
+            [size] => 7005
+        )
+
+)
+
+Image uploaded successfully: uploads/blogs/images.jpg
+POST Data: Array
+(
+    [title] => Panadol: Your Go-To Relief for Everyday Pain and Fever
+    [content] => Blog Content:
+When it comes to managing pain and fever, Panadol has become a household name. Trusted by millions around the globe, Panadol is known for its effectiveness, affordability, and wide availability. But what exactly makes Panadol such a reliable option? Let’s take a closer look at this popular medication.
+
+What is Panadol?
+Panadol is the brand name for paracetamol, also known as acetaminophen in some parts of the world. It’s a common over-the-counter (OTC) medication used to relieve mild to moderate pain and reduce fever. Whether you’re dealing with a headache, muscle aches, or flu symptoms, Panadol is often the first choice for quick relief.
+
+How Does Panadol Work?
+Panadol works by inhibiting the production of prostaglandins in the brain. These are chemical compounds responsible for causing pain and inflammation. By blocking their production, Panadol effectively reduces pain and lowers body temperature when you have a fever.
+
+Benefits of Panadol:
+Fast-Acting Relief
+Panadol provides rapid relief from various types of pain, including headaches, toothaches, back pain, and menstrual cramps.
+
+Safe When Used Correctly
+When taken as directed, Panadol is safe for most people, including children and the elderly. It’s often recommended for people who cannot take non-steroidal anti-inflammatory drugs (NSAIDs) like ibuprofen due to stomach or heart concerns.
+
+Gentle on the Stomach
+Unlike NSAIDs, Panadol is less likely to cause stomach irritation, making it a good option for individuals with sensitive digestive systems.
+
+Versatile Options
+Panadol is available in various formulations, including tablets, liquid suspensions, and dissolvable powders, catering to different preferences and age groups.
+
+When Should You Use Panadol?
+Panadol is effective in treating:
+
+Headaches and migraines
+Fever from colds or flu
+Muscle aches and joint pain
+Toothaches and post-dental pain
+Menstrual cramps
+Safety Precautions:
+While Panadol is generally safe, it’s important to follow the recommended dosage guidelines:
+
+Adults: Usually, 500 mg to 1 g every 4-6 hours as needed, but do not exceed 4 g in 24 hours.
+Children: Dosage varies based on age and weight; consult a doctor or pharmacist for accurate recommendations.
+Avoid Overuse: Taking too much Panadol can lead to liver damage. Always check labels for hidden paracetamol in other combination medications.
+
+When to Seek Medical Advice?
+Consult a healthcare professional if:
+
+Pain persists for more than a few days.
+Fever does not improve after 3 days.
+You have underlying liver or kidney conditions.
+Conclusion:
+Panadol has stood the test of time as one of the most trusted pain relievers in the world. Its versatility and ease of use make it a go-to option for many individuals seeking relief from pain and fever. However, as with any medication, it’s crucial to use Panadol responsibly and seek medical advice if symptoms persist.
+
+So, the next time you’re feeling under the weather, reach for Panadol – your trusted companion for effective relief!
+
+Disclaimer: Always consult a healthcare professional before starting any medication.
+    [video_link] => https://youtu.be/vX9NwI04v-o?si=qNVZScvoYiUsBFTq
+)
+
+FILES Data: Array
+(
+    [image] => Array
+        (
+            [name] => images.jpg
+            [full_path] => images.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php6C6F.tmp
+            [error] => 0
+            [size] => 7005
+        )
+
+)
+
+Error: user_id not found in session.
+POST Data: Array
+(
+    [title] => Panadol: Your Go-To Relief for Everyday Pain and Fever
+    [content] => Blog Content:
+When it comes to managing pain and fever, Panadol has become a household name. Trusted by millions around the globe, Panadol is known for its effectiveness, affordability, and wide availability. But what exactly makes Panadol such a reliable option? Let’s take a closer look at this popular medication.
+
+What is Panadol?
+Panadol is the brand name for paracetamol, also known as acetaminophen in some parts of the world. It’s a common over-the-counter (OTC) medication used to relieve mild to moderate pain and reduce fever. Whether you’re dealing with a headache, muscle aches, or flu symptoms, Panadol is often the first choice for quick relief.
+
+How Does Panadol Work?
+Panadol works by inhibiting the production of prostaglandins in the brain. These are chemical compounds responsible for causing pain and inflammation. By blocking their production, Panadol effectively reduces pain and lowers body temperature when you have a fever.
+
+Benefits of Panadol:
+Fast-Acting Relief
+Panadol provides rapid relief from various types of pain, including headaches, toothaches, back pain, and menstrual cramps.
+
+Safe When Used Correctly
+When taken as directed, Panadol is safe for most people, including children and the elderly. It’s often recommended for people who cannot take non-steroidal anti-inflammatory drugs (NSAIDs) like ibuprofen due to stomach or heart concerns.
+
+Gentle on the Stomach
+Unlike NSAIDs, Panadol is less likely to cause stomach irritation, making it a good option for individuals with sensitive digestive systems.
+
+Versatile Options
+Panadol is available in various formulations, including tablets, liquid suspensions, and dissolvable powders, catering to different preferences and age groups.
+
+When Should You Use Panadol?
+Panadol is effective in treating:
+
+Headaches and migraines
+Fever from colds or flu
+Muscle aches and joint pain
+Toothaches and post-dental pain
+Menstrual cramps
+Safety Precautions:
+While Panadol is generally safe, it’s important to follow the recommended dosage guidelines:
+
+Adults: Usually, 500 mg to 1 g every 4-6 hours as needed, but do not exceed 4 g in 24 hours.
+Children: Dosage varies based on age and weight; consult a doctor or pharmacist for accurate recommendations.
+Avoid Overuse: Taking too much Panadol can lead to liver damage. Always check labels for hidden paracetamol in other combination medications.
+
+When to Seek Medical Advice?
+Consult a healthcare professional if:
+
+Pain persists for more than a few days.
+Fever does not improve after 3 days.
+You have underlying liver or kidney conditions.
+Conclusion:
+Panadol has stood the test of time as one of the most trusted pain relievers in the world. Its versatility and ease of use make it a go-to option for many individuals seeking relief from pain and fever. However, as with any medication, it’s crucial to use Panadol responsibly and seek medical advice if symptoms persist.
+
+So, the next time you’re feeling under the weather, reach for Panadol – your trusted companion for effective relief!
+
+Disclaimer: Always consult a healthcare professional before starting any medication.
+    [video_link] => https://youtu.be/vX9NwI04v-o?si=qNVZScvoYiUsBFTq
+)
+
+POST Data: Array
+(
+    [title] => Panadol: Your Go-To Relief for Everyday Pain and Fever
+    [content] => Blog Content:
+When it comes to managing pain and fever, Panadol has become a household name. Trusted by millions around the globe, Panadol is known for its effectiveness, affordability, and wide availability. But what exactly makes Panadol such a reliable option? Let’s take a closer look at this popular medication.
+
+What is Panadol?
+Panadol is the brand name for paracetamol, also known as acetaminophen in some parts of the world. It’s a common over-the-counter (OTC) medication used to relieve mild to moderate pain and reduce fever. Whether you’re dealing with a headache, muscle aches, or flu symptoms, Panadol is often the first choice for quick relief.
+
+How Does Panadol Work?
+Panadol works by inhibiting the production of prostaglandins in the brain. These are chemical compounds responsible for causing pain and inflammation. By blocking their production, Panadol effectively reduces pain and lowers body temperature when you have a fever.
+
+Benefits of Panadol:
+Fast-Acting Relief
+Panadol provides rapid relief from various types of pain, including headaches, toothaches, back pain, and menstrual cramps.
+
+Safe When Used Correctly
+When taken as directed, Panadol is safe for most people, including children and the elderly. It’s often recommended for people who cannot take non-steroidal anti-inflammatory drugs (NSAIDs) like ibuprofen due to stomach or heart concerns.
+
+Gentle on the Stomach
+Unlike NSAIDs, Panadol is less likely to cause stomach irritation, making it a good option for individuals with sensitive digestive systems.
+
+Versatile Options
+Panadol is available in various formulations, including tablets, liquid suspensions, and dissolvable powders, catering to different preferences and age groups.
+
+When Should You Use Panadol?
+Panadol is effective in treating:
+
+Headaches and migraines
+Fever from colds or flu
+Muscle aches and joint pain
+Toothaches and post-dental pain
+Menstrual cramps
+Safety Precautions:
+While Panadol is generally safe, it’s important to follow the recommended dosage guidelines:
+
+Adults: Usually, 500 mg to 1 g every 4-6 hours as needed, but do not exceed 4 g in 24 hours.
+Children: Dosage varies based on age and weight; consult a doctor or pharmacist for accurate recommendations.
+Avoid Overuse: Taking too much Panadol can lead to liver damage. Always check labels for hidden paracetamol in other combination medications.
+
+When to Seek Medical Advice?
+Consult a healthcare professional if:
+
+Pain persists for more than a few days.
+Fever does not improve after 3 days.
+You have underlying liver or kidney conditions.
+Conclusion:
+Panadol has stood the test of time as one of the most trusted pain relievers in the world. Its versatility and ease of use make it a go-to option for many individuals seeking relief from pain and fever. However, as with any medication, it’s crucial to use Panadol responsibly and seek medical advice if symptoms persist.
+
+So, the next time you’re feeling under the weather, reach for Panadol – your trusted companion for effective relief!
+
+Disclaimer: Always consult a healthcare professional before starting any medication.
+    [video_link] => https://youtu.be/vX9NwI04v-o?si=qNVZScvoYiUsBFTq
+)
+
+FILES Data: Array
+(
+    [image] => Array
+        (
+            [name] => images.jpg
+            [full_path] => images.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpD47.tmp
+            [error] => 0
+            [size] => 7005
+        )
+
+)
+
+Error: user_id not found in session.
+POST Data: Array
+(
+    [title] => Panadol: Your Go-To Relief for Everyday Pain and Fever
+    [content] => Blog Content:
+When it comes to managing pain and fever, Panadol has become a household name. Trusted by millions around the globe, Panadol is known for its effectiveness, affordability, and wide availability. But what exactly makes Panadol such a reliable option? Let’s take a closer look at this popular medication.
+
+What is Panadol?
+Panadol is the brand name for paracetamol, also known as acetaminophen in some parts of the world. It’s a common over-the-counter (OTC) medication used to relieve mild to moderate pain and reduce fever. Whether you’re dealing with a headache, muscle aches, or flu symptoms, Panadol is often the first choice for quick relief.
+
+How Does Panadol Work?
+Panadol works by inhibiting the production of prostaglandins in the brain. These are chemical compounds responsible for causing pain and inflammation. By blocking their production, Panadol effectively reduces pain and lowers body temperature when you have a fever.
+
+Benefits of Panadol:
+Fast-Acting Relief
+Panadol provides rapid relief from various types of pain, including headaches, toothaches, back pain, and menstrual cramps.
+
+Safe When Used Correctly
+When taken as directed, Panadol is safe for most people, including children and the elderly. It’s often recommended for people who cannot take non-steroidal anti-inflammatory drugs (NSAIDs) like ibuprofen due to stomach or heart concerns.
+
+Gentle on the Stomach
+Unlike NSAIDs, Panadol is less likely to cause stomach irritation, making it a good option for individuals with sensitive digestive systems.
+
+Versatile Options
+Panadol is available in various formulations, including tablets, liquid suspensions, and dissolvable powders, catering to different preferences and age groups.
+
+When Should You Use Panadol?
+Panadol is effective in treating:
+
+Headaches and migraines
+Fever from colds or flu
+Muscle aches and joint pain
+Toothaches and post-dental pain
+Menstrual cramps
+Safety Precautions:
+While Panadol is generally safe, it’s important to follow the recommended dosage guidelines:
+
+Adults: Usually, 500 mg to 1 g every 4-6 hours as needed, but do not exceed 4 g in 24 hours.
+Children: Dosage varies based on age and weight; consult a doctor or pharmacist for accurate recommendations.
+Avoid Overuse: Taking too much Panadol can lead to liver damage. Always check labels for hidden paracetamol in other combination medications.
+
+When to Seek Medical Advice?
+Consult a healthcare professional if:
+
+Pain persists for more than a few days.
+Fever does not improve after 3 days.
+You have underlying liver or kidney conditions.
+Conclusion:
+Panadol has stood the test of time as one of the most trusted pain relievers in the world. Its versatility and ease of use make it a go-to option for many individuals seeking relief from pain and fever. However, as with any medication, it’s crucial to use Panadol responsibly and seek medical advice if symptoms persist.
+
+So, the next time you’re feeling under the weather, reach for Panadol – your trusted companion for effective relief!
+
+Disclaimer: Always consult a healthcare professional before starting any medication.
+    [video_link] => https://youtu.be/vX9NwI04v-o?si=qNVZScvoYiUsBFTq
+)
+
+FILES Data: Array
+(
+    [image] => Array
+        (
+            [name] => images.jpg
+            [full_path] => images.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpE2B4.tmp
+            [error] => 0
+            [size] => 7005
+        )
+
+)
+
+Error: user_id not found in session.
+POST Data: Array
+(
+    [title] => Panadol: Your Go-To Relief for Everyday Pain and Fever
+    [content] => Blog Content:
+When it comes to managing pain and fever, Panadol has become a household name. Trusted by millions around the globe, Panadol is known for its effectiveness, affordability, and wide availability. But what exactly makes Panadol such a reliable option? Let’s take a closer look at this popular medication.
+
+What is Panadol?
+Panadol is the brand name for paracetamol, also known as acetaminophen in some parts of the world. It’s a common over-the-counter (OTC) medication used to relieve mild to moderate pain and reduce fever. Whether you’re dealing with a headache, muscle aches, or flu symptoms, Panadol is often the first choice for quick relief.
+
+How Does Panadol Work?
+Panadol works by inhibiting the production of prostaglandins in the brain. These are chemical compounds responsible for causing pain and inflammation. By blocking their production, Panadol effectively reduces pain and lowers body temperature when you have a fever.
+
+Benefits of Panadol:
+Fast-Acting Relief
+Panadol provides rapid relief from various types of pain, including headaches, toothaches, back pain, and menstrual cramps.
+
+Safe When Used Correctly
+When taken as directed, Panadol is safe for most people, including children and the elderly. It’s often recommended for people who cannot take non-steroidal anti-inflammatory drugs (NSAIDs) like ibuprofen due to stomach or heart concerns.
+
+Gentle on the Stomach
+Unlike NSAIDs, Panadol is less likely to cause stomach irritation, making it a good option for individuals with sensitive digestive systems.
+
+Versatile Options
+Panadol is available in various formulations, including tablets, liquid suspensions, and dissolvable powders, catering to different preferences and age groups.
+
+When Should You Use Panadol?
+Panadol is effective in treating:
+
+Headaches and migraines
+Fever from colds or flu
+Muscle aches and joint pain
+Toothaches and post-dental pain
+Menstrual cramps
+Safety Precautions:
+While Panadol is generally safe, it’s important to follow the recommended dosage guidelines:
+
+Adults: Usually, 500 mg to 1 g every 4-6 hours as needed, but do not exceed 4 g in 24 hours.
+Children: Dosage varies based on age and weight; consult a doctor or pharmacist for accurate recommendations.
+Avoid Overuse: Taking too much Panadol can lead to liver damage. Always check labels for hidden paracetamol in other combination medications.
+
+When to Seek Medical Advice?
+Consult a healthcare professional if:
+
+Pain persists for more than a few days.
+Fever does not improve after 3 days.
+You have underlying liver or kidney conditions.
+Conclusion:
+Panadol has stood the test of time as one of the most trusted pain relievers in the world. Its versatility and ease of use make it a go-to option for many individuals seeking relief from pain and fever. However, as with any medication, it’s crucial to use Panadol responsibly and seek medical advice if symptoms persist.
+
+So, the next time you’re feeling under the weather, reach for Panadol – your trusted companion for effective relief!
+
+Disclaimer: Always consult a healthcare professional before starting any medication.
+    [video_link] => https://youtu.be/vX9NwI04v-o?si=qNVZScvoYiUsBFTq
+)
+
+FILES Data: Array
+(
+    [image] => Array
+        (
+            [name] => images.jpg
+            [full_path] => images.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php19DD.tmp
+            [error] => 0
+            [size] => 7005
+        )
+
+)
+
+Error: user_id not found in session.
+POST Data: Array
+(
+    [title] => Panadol: Your Go-To Relief for Everyday Pain and Fever
+    [content] => Blog Content:
+When it comes to managing pain and fever, Panadol has become a household name. Trusted by millions around the globe, Panadol is known for its effectiveness, affordability, and wide availability. But what exactly makes Panadol such a reliable option? Let’s take a closer look at this popular medication.
+
+What is Panadol?
+Panadol is the brand name for paracetamol, also known as acetaminophen in some parts of the world. It’s a common over-the-counter (OTC) medication used to relieve mild to moderate pain and reduce fever. Whether you’re dealing with a headache, muscle aches, or flu symptoms, Panadol is often the first choice for quick relief.
+
+How Does Panadol Work?
+Panadol works by inhibiting the production of prostaglandins in the brain. These are chemical compounds responsible for causing pain and inflammation. By blocking their production, Panadol effectively reduces pain and lowers body temperature when you have a fever.
+
+Benefits of Panadol:
+Fast-Acting Relief
+Panadol provides rapid relief from various types of pain, including headaches, toothaches, back pain, and menstrual cramps.
+
+Safe When Used Correctly
+When taken as directed, Panadol is safe for most people, including children and the elderly. It’s often recommended for people who cannot take non-steroidal anti-inflammatory drugs (NSAIDs) like ibuprofen due to stomach or heart concerns.
+
+Gentle on the Stomach
+Unlike NSAIDs, Panadol is less likely to cause stomach irritation, making it a good option for individuals with sensitive digestive systems.
+
+Versatile Options
+Panadol is available in various formulations, including tablets, liquid suspensions, and dissolvable powders, catering to different preferences and age groups.
+
+When Should You Use Panadol?
+Panadol is effective in treating:
+
+Headaches and migraines
+Fever from colds or flu
+Muscle aches and joint pain
+Toothaches and post-dental pain
+Menstrual cramps
+Safety Precautions:
+While Panadol is generally safe, it’s important to follow the recommended dosage guidelines:
+
+Adults: Usually, 500 mg to 1 g every 4-6 hours as needed, but do not exceed 4 g in 24 hours.
+Children: Dosage varies based on age and weight; consult a doctor or pharmacist for accurate recommendations.
+Avoid Overuse: Taking too much Panadol can lead to liver damage. Always check labels for hidden paracetamol in other combination medications.
+
+When to Seek Medical Advice?
+Consult a healthcare professional if:
+
+Pain persists for more than a few days.
+Fever does not improve after 3 days.
+You have underlying liver or kidney conditions.
+Conclusion:
+Panadol has stood the test of time as one of the most trusted pain relievers in the world. Its versatility and ease of use make it a go-to option for many individuals seeking relief from pain and fever. However, as with any medication, it’s crucial to use Panadol responsibly and seek medical advice if symptoms persist.
+
+So, the next time you’re feeling under the weather, reach for Panadol – your trusted companion for effective relief!
+
+Disclaimer: Always consult a healthcare professional before starting any medication.
+    [video_link] => https://youtu.be/vX9NwI04v-o?si=qNVZScvoYiUsBFTq
+)
+
+FILES Data: Array
+(
+    [image] => Array
+        (
+            [name] => images.jpg
+            [full_path] => images.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php73A8.tmp
+            [error] => 0
+            [size] => 7005
+        )
+
+)
+
+Image uploaded successfully: uploads/blogs/images.jpg
+Blog inserted successfully.
+POST Data: Array
+(
+    [title] => The Importance of Staying Hydrated for Your Health
+    [content] => Introduction
+Water is essential for life, making up about 60% of the human body. Despite its importance, many people don’t drink enough water daily. Staying hydrated is crucial for maintaining overall health, supporting bodily functions, and enhancing mental and physical performance.
+
+Why Is Hydration Important?
+Regulates Body Temperature Proper hydration helps maintain a stable body temperature. Water absorbs and redistributes heat in your body, preventing overheating through processes like sweating.
+
+Supports Digestion Drinking water aids in breaking down food, improving nutrient absorption, and preventing common digestive issues like constipation.
+
+Boosts Energy Levels Dehydration can cause fatigue and lower energy levels. Staying hydrated ensures that your body can carry nutrients and oxygen efficiently, keeping you energized throughout the day.
+
+Improves Skin Health Your skin needs adequate hydration to stay supple and radiant. Drinking enough water helps maintain skin elasticity and prevents dryness and flakiness.
+
+Supports Joint Health Water acts as a lubricant for your joints, reducing discomfort and preventing joint damage, especially during physical activity.
+
+Signs of Dehydration
+It’s essential to recognize when your body needs more water. Common symptoms include:
+
+Thirst
+Dry mouth
+Fatigue
+Dark yellow urine
+Headaches
+Dizziness
+If dehydration becomes severe, it can lead to more serious health issues such as kidney stones or urinary tract infections.
+
+Tips to Stay Hydrated
+Carry a Water Bottle: Keep a reusable water bottle with you to encourage regular drinking.
+Set Reminders: Use alarms or hydration apps to remind you to drink water throughout the day.
+Add Flavor: If plain water feels boring, try adding slices of lemon, cucumber, or mint.
+Eat Water-Rich Foods: Incorporate foods like watermelon, cucumbers, and oranges into your diet.
+Drink Before Thirst: Don’t wait until you feel thirsty; sip water regularly to stay ahead of dehydration.
+Conclusion
+Hydration is a simple yet powerful way to support your health. By making water a priority in your daily routine, you can improve your energy, digestion, and overall well-being. Start today by drinking an extra glass of water—you’ll feel the difference!
+    [video_link] => 
+)
+
+FILES Data: Array
+(
+    [image] => Array
+        (
+            [name] => water.jpg
+            [full_path] => water.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php1B29.tmp
+            [error] => 0
+            [size] => 16470
+        )
+
+)
+
+Image uploaded successfully: uploads/blogs/water.jpg
+POST Data: Array
+(
+    [title] => The Importance of Staying Hydrated for Your Health
+    [content] => Introduction
+Water is essential for life, making up about 60% of the human body. Despite its importance, many people don’t drink enough water daily. Staying hydrated is crucial for maintaining overall health, supporting bodily functions, and enhancing mental and physical performance.
+
+Why Is Hydration Important?
+Regulates Body Temperature Proper hydration helps maintain a stable body temperature. Water absorbs and redistributes heat in your body, preventing overheating through processes like sweating.
+
+Supports Digestion Drinking water aids in breaking down food, improving nutrient absorption, and preventing common digestive issues like constipation.
+
+Boosts Energy Levels Dehydration can cause fatigue and lower energy levels. Staying hydrated ensures that your body can carry nutrients and oxygen efficiently, keeping you energized throughout the day.
+
+Improves Skin Health Your skin needs adequate hydration to stay supple and radiant. Drinking enough water helps maintain skin elasticity and prevents dryness and flakiness.
+
+Supports Joint Health Water acts as a lubricant for your joints, reducing discomfort and preventing joint damage, especially during physical activity.
+
+Signs of Dehydration
+It’s essential to recognize when your body needs more water. Common symptoms include:
+
+Thirst
+Dry mouth
+Fatigue
+Dark yellow urine
+Headaches
+Dizziness
+If dehydration becomes severe, it can lead to more serious health issues such as kidney stones or urinary tract infections.
+
+Tips to Stay Hydrated
+Carry a Water Bottle: Keep a reusable water bottle with you to encourage regular drinking.
+Set Reminders: Use alarms or hydration apps to remind you to drink water throughout the day.
+Add Flavor: If plain water feels boring, try adding slices of lemon, cucumber, or mint.
+Eat Water-Rich Foods: Incorporate foods like watermelon, cucumbers, and oranges into your diet.
+Drink Before Thirst: Don’t wait until you feel thirsty; sip water regularly to stay ahead of dehydration.
+Conclusion
+Hydration is a simple yet powerful way to support your health. By making water a priority in your daily routine, you can improve your energy, digestion, and overall well-being. Start today by drinking an extra glass of water—you’ll feel the difference!
+    [video_link] => 
+)
+
+FILES Data: Array
+(
+    [image] => Array
+        (
+            [name] => water.jpg
+            [full_path] => water.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpD8F7.tmp
+            [error] => 0
+            [size] => 16470
+        )
+
+)
+
+Image uploaded successfully: uploads/blogs/water.jpg
+Blog inserted successfully.
